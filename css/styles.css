@@ -1,0 +1,83 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+body{
+    background-image: url(../images/mitos-gestao-do-tempo.jpg);
+    background-size: 100%;
+    background-repeat: repeat;
+}
+a {
+    color:white;
+    padding: 10px;
+    transition: all 0.5s;
+}
+header {
+    width: 100%;  
+}
+header nav {
+    padding: 10px;
+    background: rgba(125,125,125, 0.7);
+    height: 40px;
+}
+header nav ul li{
+    display: inline;
+}
+header nav ul li h1 { 
+    color: white;
+    background-color: rgba(125,125,125, 0.1);
+    text-align: center;
+}
+h1 {
+    font-size: 50px;
+    @import url('https://fonts.googleapis.com/css?family=Chilanka&display=swap');
+    font-family: 'Chilanka', cursive;
+}
+header nav ul li a:hover {
+    background: rgba(125,125,125, 0.5);
+    color:rgb(245, 10, 10);
+    padding: 10px;
+    @import url('https://fonts.googleapis.com/css?family=Chilanka&display=swap');
+    font-family: 'Chilanka', cursive;
+    transform: rotate(180deg);
+}
+header nav ul li a {
+    @import url('https://fonts.googleapis.com/css?family=Chilanka&display=swap');
+    font-family: 'Chilanka', cursive;
+    text-decoration: none;
+}
+.menu nav ul  {
+    text-align: center;
+}
+.conteudo {
+    width: 900px;
+    background-color: rgba(255, 253, 253, 0.6);
+    padding: 20px;
+    font-size: 20px;
+}
+h1 a {
+    @import url('https://fonts.googleapis.com/css?family=Chilanka&display=swap');
+    font-family: 'Chilanka', cursive;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+h1 {
+    @import url('https://fonts.googleapis.com/css?family=Chilanka&display=swap');
+    font-family: 'chilanka', cursive;
+    text-decoration: none;
+    color:black;
+    text-align: center;
+    font-size: 25px;
+}
+.aa{
+    @import url('https://fonts.googleapis.com/css?family=Chilanka&display=swap');
+    font-family: 'Chilanka', cursive;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    width: 900px;
+    background-color: rgba(255, 253, 253, 0.6);
+    padding: 20px;
+    font-size: 20px;
+}
