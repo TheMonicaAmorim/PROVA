@@ -2,6 +2,10 @@
     margin: 0 auto;
     padding: 0;
 }
+.p1 {
+    display: flex;
+    flex-direction: row;
+}
 body{
     background-image: url(../images/mitos-gestao-do-tempo.jpg);
     background-size: 100%;
@@ -86,6 +90,7 @@ h1 {
 video{
     width: 500px;
     height: 200;
+    text-align: right
 }
 section div {
     width: 900px;
